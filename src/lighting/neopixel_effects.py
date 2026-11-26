@@ -20,7 +20,7 @@ class NeoPixelEffects:
         self,
         strand: PixelBuf,
         pixels: range,
-        wait: int | float,
+        wait: float,
         reverse: bool = False,
     ) -> None:
         """Cycle through the colors.
@@ -49,7 +49,7 @@ class NeoPixelEffects:
         strand: PixelBuf,
         pixels: range,
         color: tuple,
-        wait: int | float = 0.05,
+        wait: float = 0.05,
         dim_by: int = 20,
         reverse: bool = False,
     ) -> None:

@@ -1,6 +1,6 @@
 version = 1
 revision = 3
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 
 [[package]]
 name = "adafruit-blinka"
@@ -18,6 +18,33 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/db/b0/e767a3f71268f52f60abd56f5854e58bca990716ae3d81803ebdf3ebcbd4/adafruit_blinka-10.2.0.tar.gz", hash = "sha256:cb6e529db184a36fdcafb74018baf9e59d300b1bfab3be2a7c791d99ffebad51", size = 1061902, upload-time = "2026-11-11T19:25:57.402Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1a/a5/1fff2a5d847c6cdeb46671ba7a949cc7bf9caf81fa00840a065dabce179f/adafruit_blinka-10.2.0-py3-none-any.whl", hash = "sha256:ceb17e9adb4b87aba02edce0aef86c77f99230f8559c6e5c728a4a5433bc37d6", size = 1086323, upload-time = "2026-11-11T19:25:55.761Z" },
+]
+
+[[package]]
+name = "adafruit-blinka-displayio"
+version = "2.7.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "adafruit-blinka" },
+    { name = "adafruit-circuitpython-bitmap-font" },
+    { name = "adafruit-circuitpython-typing" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/39/32/5342b5c3dcffbc3499b4489ba34a9556f358299a114902a9ad3c232c0ff9/adafruit_blinka_displayio-2.7.1.tar.gz", hash = "sha256:33106bf03d6dd384b862067e9226479f655d3b9b487165a8fdad349ca6405eb1", size = 101349, upload-time = "2026-10-15T21:27:49.152Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c1/2a/bfa1b8461dbad12368731c7efeb6b4bece52930b24dc32b1f6855719f3a5/adafruit_blinka_displayio-2.7.1-py3-none-any.whl", hash = "sha256:b6bdaee0105e7953b03fa95c0b04f7ad7dd3895afbd367d9a591bd70932e9645", size = 94637, upload-time = "2026-10-15T21:27:48.112Z" },
+]
+
+[[package]]
+name = "adafruit-circuitpython-bitmap-font"
+version = "2.5.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "adafruit-blinka" },
+    { name = "adafruit-blinka-displayio" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/62/4d/3eb11ba87cc148199985f992485f7b3864049635a693ae736a6b7183d522/adafruit_circuitpython_bitmap_font-2.5.1.tar.gz", hash = "sha256:ccd958f3d2d2d5e337435b9a9f7372202f636c3c2355da3e04290787721c270b", size = 845297, upload-time = "2026-10-15T21:20:08.747Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e9/3e/9bdf201a2a914ec5d71d9c602ee53d5313cc369eec7991297914574c0bfc/adafruit_circuitpython_bitmap_font-2.5.1-py3-none-any.whl", hash = "sha256:0415f3f1cedfcdffa927ce78a91b2444df04c2545eb51a2daabbc4170b323696", size = 16359, upload-time = "2026-10-15T21:20:07.486Z" },
 ]
 
 [[package]]
@@ -43,6 +70,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/a0/29/1653838bc0e5c6119fa2b03edb58b592a2475e7cf99810064a99e5eb8994/adafruit_circuitpython_connectionmanager-3.1.8.tar.gz", hash = "sha256:ce7436d62ac26312fbd2fc7d8f70ab0582a7c7807d7033ae5bd5cb53e4f66f3b", size = 33828, upload-time = "2026-04-23T21:18:42.138Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e4/43/929d17e5dbe0773e3a3c728b12cf1a777ada32639764b09365a1b56703c0/adafruit_circuitpython_connectionmanager-3.1.8-py3-none-any.whl", hash = "sha256:f93e27874a840f728b5cdbb1bcf0aee4e75ed1c0ba46b4562606ac3ac3ea2cca", size = 7755, upload-time = "2026-04-23T21:18:40.984Z" },
+]
+
+[[package]]
+name = "adafruit-circuitpython-display-shapes"
+version = "2.11.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "adafruit-blinka" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c8/aa/7f04303824d652bf058a4b668f5f86b7c16e22d85b2e7eac9246238a4657/adafruit_circuitpython_display_shapes-2.11.0.tar.gz", hash = "sha256:c885688f0aaf8cf2401ea4807c31a9e6dd73f3497576f205e6496de5ce64cc1f", size = 38389, upload-time = "2026-11-25T17:13:13.362Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8e/6a/a0aeecad7d8996c3ca0c693c08d82f089f791ff4f27f6fe44c3506c3513b/adafruit_circuitpython_display_shapes-2.11.0-py3-none-any.whl", hash = "sha256:6c9c28efa8e7481e658b29c2d1a47259b5b48a4f3a97d2c683cd7f6a4bd8639a", size = 22759, upload-time = "2026-11-25T17:13:12.425Z" },
 ]
 
 [[package]]
@@ -190,16 +229,35 @@ wheels = [
 name = "cp-crackers"
 version = "0.1.0"
 source = { virtual = "." }
-dependencies = [
-    { name = "adafruit-circuitpython-motorkit" },
+
+[package.optional-dependencies]
+display = [
+    { name = "adafruit-blinka-displayio" },
+    { name = "adafruit-circuitpython-display-shapes" },
+]
+lighting = [
+    { name = "adafruit-blinka" },
     { name = "adafruit-circuitpython-neopixel" },
+    { name = "adafruit-circuitpython-pixelbuf" },
+]
+motor = [
+    { name = "adafruit-blinka" },
+    { name = "adafruit-circuitpython-motor" },
+    { name = "adafruit-circuitpython-motorkit" },
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "adafruit-circuitpython-motorkit", specifier = ">=1.6.21" },
-    { name = "adafruit-circuitpython-neopixel", specifier = ">=6.4.2" },
+    { name = "adafruit-blinka", marker = "extra == 'lighting'" },
+    { name = "adafruit-blinka", marker = "extra == 'motor'" },
+    { name = "adafruit-blinka-displayio", marker = "extra == 'display'", specifier = ">=2.7.1" },
+    { name = "adafruit-circuitpython-display-shapes", marker = "extra == 'display'", specifier = ">=2.11.0" },
+    { name = "adafruit-circuitpython-motor", marker = "extra == 'motor'" },
+    { name = "adafruit-circuitpython-motorkit", marker = "extra == 'motor'", specifier = ">=1.6.21" },
+    { name = "adafruit-circuitpython-neopixel", marker = "extra == 'lighting'", specifier = ">=6.4.2" },
+    { name = "adafruit-circuitpython-pixelbuf", marker = "extra == 'lighting'" },
 ]
+provides-extras = ["motor", "lighting", "display"]
 
 [[package]]
 name = "packaging"
@@ -246,6 +304,10 @@ version = "1.2.0"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/f2/5e/59208c6dd05ebc6f46ce2023c4fc01ffe814a1967d21b35d312c7e6ffeae/sysv_ipc-1.2.0.tar.gz", hash = "sha256:ef96ab33bb62e4d14142f0be0524dcc0c3c70c96442df2fc773c67b7c7514199", size = 102810, upload-time = "2026-01-09T14:05:02.231Z" }
 wheels = [
+    { url = "https://files.pythonhosted.org/packages/e7/98/b35eba27297a886931d69352c171cfd53ea9b4a9097d282f80556046bc39/sysv_ipc-1.2.0-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:eb8cea6b912b467083941032f4b38269d86d1ec8f2dec0ca39694fedf6fd9acd", size = 72257, upload-time = "2026-01-09T14:04:23.289Z" },
+    { url = "https://files.pythonhosted.org/packages/5d/6f/906724d4ca94cc5c0a6c419ed0ec2a0b64b41de6771590ebf9db59cc97db/sysv_ipc-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:48865de17c9354a6c7740c47dc4d13f409afe43e4fc350b56df3ca5c10c1462d", size = 73309, upload-time = "2026-01-09T14:04:24.421Z" },
+    { url = "https://files.pythonhosted.org/packages/ea/3a/818d7634f31484e35ffee1b018287a0007e24a98709d06ecc544e7c7cba8/sysv_ipc-1.2.0-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:f69c30545a3280b4b7f2057fd3aedb7044e45894314752241802e697a00b5413", size = 70955, upload-time = "2026-01-09T14:04:25.172Z" },
+    { url = "https://files.pythonhosted.org/packages/1b/80/e3881c84573206563191d8c13711382dc22bf54a7ae4d09d099271cf3703/sysv_ipc-1.2.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:a000180848b59508bd862215998ee70c4cd4cd3081b0b066068e9287645cda35", size = 71223, upload-time = "2026-01-09T14:04:26.061Z" },
     { url = "https://files.pythonhosted.org/packages/a2/2d/2e4f55201cca54666c08468538348be4af16a52c7296bdd038a303e7be9f/sysv_ipc-1.2.0-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:977f0e313c2e663000f0c316682ea2c3f6d2f86bbbdb1bcd274fea244a211df0", size = 72727, upload-time = "2026-01-09T14:04:28.317Z" },
     { url = "https://files.pythonhosted.org/packages/d0/6a/e04914984503317dd2481d6ff5fa9ab85e70960b79514309b0bcb0ef08d8/sysv_ipc-1.2.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:f0b40e147277a954c41f94207dfab402bfa8371198c191b826d833b40c5e83e9", size = 73643, upload-time = "2026-01-09T14:04:29.234Z" },
     { url = "https://files.pythonhosted.org/packages/54/46/6f9aacbbf4c71ddce08f645bd67fa4223573a3191fd938acc926ca2b94c4/sysv_ipc-1.2.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:83ff789f67477dc09424f674e1eb9195d8edd9b4044c3d5833d1a252d49034fc", size = 71319, upload-time = "2026-01-09T14:04:30.059Z" },
