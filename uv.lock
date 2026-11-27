@@ -98,49 +98,6 @@ wheels = [
 ]
 
 [[package]]
-name = "adafruit-circuitpython-motorkit"
-version = "1.6.21"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "adafruit-blinka" },
-    { name = "adafruit-circuitpython-busdevice" },
-    { name = "adafruit-circuitpython-motor" },
-    { name = "adafruit-circuitpython-pca9685" },
-    { name = "adafruit-circuitpython-register" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/da/73/db211b7fc6aba67443f2ca3f4b0f271e8f7e6beec72e2e39e72b76bf6df8/adafruit_circuitpython_motorkit-1.6.21.tar.gz", hash = "sha256:0e76675382081c11cd32618d2f288ca4d0664155cdaf9ea32efc25a322115922", size = 4041295, upload-time = "2026-04-23T21:23:17.505Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b1/a6/d2377242b8249f43c350ef95c11dc4a1309b23696b97b8fbc1041dc44108/adafruit_circuitpython_motorkit-1.6.21-py3-none-any.whl", hash = "sha256:5523156b8e8d8777cbb10b559996a1d7a7d6767ccf7a0636d1aa8d81400a7997", size = 6054, upload-time = "2026-04-23T21:23:16.257Z" },
-]
-
-[[package]]
-name = "adafruit-circuitpython-neopixel"
-version = "6.4.2"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "adafruit-blinka" },
-    { name = "adafruit-circuitpython-pixelbuf" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/da/3f/b190417a1d37f2ea632019a51878b650f312cf1d47bb55379f2cf37adfd6/adafruit_circuitpython_neopixel-6.4.2.tar.gz", hash = "sha256:c5123c5a8f204dd2d8975666c2298cecdf268f27f3a4fc3fa425636ff1f7668d", size = 25874, upload-time = "2026-04-23T21:02:14.833Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/d6/fd/374814d6ecf21366ae0238d86dec7b5e70d606a2b514cba42173755203a4/adafruit_circuitpython_neopixel-6.4.2-py3-none-any.whl", hash = "sha256:1a471557e7b82c98894ec27c23910149c5ef76ce39420f054773943dfe56970e", size = 6503, upload-time = "2026-04-23T21:02:13.668Z" },
-]
-
-[[package]]
-name = "adafruit-circuitpython-pca9685"
-version = "3.4.22"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "adafruit-blinka" },
-    { name = "adafruit-circuitpython-busdevice" },
-    { name = "adafruit-circuitpython-register" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/63/2f/823d7079a05396819fc4eff52ee506c1bf8e1795dd041ea1d815043bbca6/adafruit_circuitpython_pca9685-3.4.22.tar.gz", hash = "sha256:a0524af794b1b2f2478b4e41444f415afa2d4e87d17a4bb1b5667eaa8a5c79a3", size = 24973, upload-time = "2026-04-23T21:03:44.506Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/2d/39/4dba82570bca8be871f9ce36658fe97f23c332a9d041b159439381f1121f/adafruit_circuitpython_pca9685-3.4.22-py3-none-any.whl", hash = "sha256:5b5b80bf9beb244760cbe0b4cfe1c6c332999aa8288556d1fc71622676103dbb", size = 6015, upload-time = "2026-04-23T21:03:43.577Z" },
-]
-
-[[package]]
 name = "adafruit-circuitpython-pixelbuf"
 version = "2.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -150,21 +107,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/55/96/cffcc48ccf8132491e8c6acddc54fd88e6be7bd449ce5aa9fbddcd8af451/adafruit_circuitpython_pixelbuf-2.1.0.tar.gz", hash = "sha256:d2f5251b65e4003fc6c07ad8244b35b6d0914bccbecd3a5e6e17539dd76d2b58", size = 25584, upload-time = "2026-08-14T19:56:44.654Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a5/d2/49f41826c8164c1b99783d8bc55856a4fa9e7337eaad57da9864cf064843/adafruit_circuitpython_pixelbuf-2.1.0-py3-none-any.whl", hash = "sha256:6ac47751fea2e64c8f7c4e93980ee560debad40dda5f646fdcb90a7ff44a12c3", size = 7137, upload-time = "2026-08-14T19:56:43.601Z" },
-]
-
-[[package]]
-name = "adafruit-circuitpython-register"
-version = "1.13.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "adafruit-blinka" },
-    { name = "adafruit-circuitpython-busdevice" },
-    { name = "adafruit-circuitpython-typing" },
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/26/26/ac659688adac5fcb9fa576efad372defc04b90f197147b2f838ada92b4cf/adafruit_circuitpython_register-1.13.0.tar.gz", hash = "sha256:c47e157157076ad85476ef4b2681e135b374f1dd316461dc37859052149fcfa8", size = 32912, upload-time = "2026-09-08T16:56:56.157Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/d1/a0/9cf4fcfbe0ab7b62bf010f0f005f626df5b35dc98f8d6871e2ad15f50c87/adafruit_circuitpython_register-1.13.0-py3-none-any.whl", hash = "sha256:fba55bf5d2cde3af77b7a8f9d7d97a6dc08697cff0d5977edadf83b90745066d", size = 21349, upload-time = "2026-09-08T16:56:54.844Z" },
 ]
 
 [[package]]
@@ -230,34 +172,25 @@ name = "cp-crackers"
 version = "0.1.0"
 source = { virtual = "." }
 
-[package.optional-dependencies]
-display = [
+[package.dev-dependencies]
+dev = [
+    { name = "adafruit-blinka" },
     { name = "adafruit-blinka-displayio" },
     { name = "adafruit-circuitpython-display-shapes" },
-]
-lighting = [
-    { name = "adafruit-blinka" },
-    { name = "adafruit-circuitpython-neopixel" },
-    { name = "adafruit-circuitpython-pixelbuf" },
-]
-motor = [
-    { name = "adafruit-blinka" },
     { name = "adafruit-circuitpython-motor" },
-    { name = "adafruit-circuitpython-motorkit" },
+    { name = "adafruit-circuitpython-pixelbuf" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "adafruit-blinka", marker = "extra == 'lighting'" },
-    { name = "adafruit-blinka", marker = "extra == 'motor'" },
-    { name = "adafruit-blinka-displayio", marker = "extra == 'display'", specifier = ">=2.7.1" },
-    { name = "adafruit-circuitpython-display-shapes", marker = "extra == 'display'", specifier = ">=2.11.0" },
-    { name = "adafruit-circuitpython-motor", marker = "extra == 'motor'" },
-    { name = "adafruit-circuitpython-motorkit", marker = "extra == 'motor'", specifier = ">=1.6.21" },
-    { name = "adafruit-circuitpython-neopixel", marker = "extra == 'lighting'", specifier = ">=6.4.2" },
-    { name = "adafruit-circuitpython-pixelbuf", marker = "extra == 'lighting'" },
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "adafruit-blinka" },
+    { name = "adafruit-blinka-displayio", specifier = ">=2.7.1" },
+    { name = "adafruit-circuitpython-display-shapes", specifier = ">=2.11.0" },
+    { name = "adafruit-circuitpython-motor" },
+    { name = "adafruit-circuitpython-pixelbuf" },
 ]
-provides-extras = ["motor", "lighting", "display"]
 
 [[package]]
 name = "packaging"

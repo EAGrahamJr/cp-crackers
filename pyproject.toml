@@ -5,18 +5,11 @@ description = "Stuff I use for stuff"
 readme = "README.md"
 requires-python = ">=3.12"
 
-[project.optional-dependencies]
-motor = [
+[dependency-groups]
+dev = [
     "adafruit-blinka",
-    "adafruit-circuitpython-motor",
-    "adafruit-circuitpython-motorkit>=1.6.21",
-]
-lighting = [
-    "adafruit-blinka",
-    "adafruit-circuitpython-neopixel>=6.4.2",
-    "adafruit-circuitpython-pixelbuf",
-]
-display = [
     "adafruit-blinka-displayio>=2.7.1",
     "adafruit-circuitpython-display-shapes>=2.11.0",
+    "adafruit-circuitpython-motor",
+    "adafruit-circuitpython-pixelbuf",
 ]
